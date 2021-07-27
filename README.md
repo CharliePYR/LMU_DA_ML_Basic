@@ -4,7 +4,7 @@
 
 ## Material for the course on data analysis and machine learning at the Ludwig-Maximilians-Universität München (LMU Munich).
 
-Start with **[PythonDA_ML_Basic.ipynb](PythonDA_ML_Basic.ipynb)**
+Start with notebook **[PythonDA_ML_Basic.ipynb](notebooks/PythonDA_ML_Basic.ipynb)**.
 
 
 ## Technical hints
