@@ -13,3 +13,6 @@ Start with notebook **[PythonDA_ML_Basic.ipynb](notebooks/PythonDA_ML_Basic.ipyn
 * install `pre-commit` from (https://pre-commit.com/) with `pip install pre-commit`
 * run `pre-commit install` in repository
 * when `jupyter-notebook-cleanup` reports `Failed` on `git commit` (it will whenever output has been removed), `git add` the changed files again and rerun `git commit`
+
+### Repository
+* [here in github](https://github.com/fuenfundachtzig/LMU_DA_ML_Basic)
