@@ -1,9 +1,10 @@
+awkward
 matplotlib
 numpy
 pandas
 scipy
 seaborn
 sklearn
-awkward
+sympy
 uproot
 vector

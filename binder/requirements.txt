@@ -16,6 +16,8 @@ matplotlib==3.4.3
     # via
     #   -r requirements.in
     #   seaborn
+mpmath==1.2.1
+    # via sympy
 numpy==1.21.2
     # via
     #   -r requirements.in
@@ -59,6 +61,8 @@ six==1.16.0
     #   cycler
     #   python-dateutil
 sklearn==0.0
+    # via -r requirements.in
+sympy==1.8
     # via -r requirements.in
 threadpoolctl==2.2.0
     # via scikit-learn
