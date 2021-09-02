@@ -4,32 +4,41 @@
 #
 #    pip-compile requirements.in
 #
+awkward==1.4.0
+    # via -r requirements.in
 cycler==0.10.0
     # via matplotlib
 joblib==1.0.1
     # via scikit-learn
-kiwisolver==1.3.1
+kiwisolver==1.3.2
     # via matplotlib
-matplotlib==3.4.2
+matplotlib==3.4.3
     # via
     #   -r requirements.in
     #   seaborn
-numpy==1.21.1
+numpy==1.21.2
     # via
     #   -r requirements.in
+    #   awkward
     #   matplotlib
     #   pandas
     #   scikit-learn
     #   scipy
     #   seaborn
-pandas==1.3.1
+    #   uproot
+    #   vector
+packaging==21.0
+    # via vector
+pandas==1.3.2
     # via
     #   -r requirements.in
     #   seaborn
 pillow==8.3.1
     # via matplotlib
 pyparsing==2.4.7
-    # via matplotlib
+    # via
+    #   matplotlib
+    #   packaging
 python-dateutil==2.8.2
     # via
     #   matplotlib
@@ -38,12 +47,12 @@ pytz==2021.1
     # via pandas
 scikit-learn==0.24.2
     # via sklearn
-scipy==1.7.0
+scipy==1.7.1
     # via
     #   -r requirements.in
     #   scikit-learn
     #   seaborn
-seaborn==0.11.1
+seaborn==0.11.2
     # via -r requirements.in
 six==1.16.0
     # via
@@ -53,3 +62,10 @@ sklearn==0.0
     # via -r requirements.in
 threadpoolctl==2.2.0
     # via scikit-learn
+uproot==4.1.1
+    # via -r requirements.in
+vector==0.8.4
+    # via -r requirements.in
+
+# The following packages are considered to be unsafe in a requirements file:
+# setuptools
