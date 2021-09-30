@@ -2,6 +2,7 @@ awkward
 matplotlib
 numpy
 pandas
+requests_cache
 scipy
 seaborn
 sklearn
