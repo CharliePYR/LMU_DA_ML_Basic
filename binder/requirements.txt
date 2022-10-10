@@ -62,6 +62,8 @@ ipython-genutils==0.2.0
     #   qtconsole
 ipywidgets==7.6.4
     # via jupyter
+jacobi==0.4.2
+    # via -r requirements.in
 jedi==0.18.0
     # via ipython
 jinja2==3.0.1
@@ -134,6 +136,7 @@ numpy==1.21.2
     # via
     #   -r requirements.in
     #   awkward
+    #   jacobi
     #   matplotlib
     #   pandas
     #   scikit-learn
